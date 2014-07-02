@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="rChart example page">
+    <meta name="author" content="Dsus4">
+
+    <title>rChart - Responsive Charting Library</title>
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="index.css" rel="stylesheet">
+    <link href="rChart/rChart.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="featurette-heading">rChart.js - 
+            <span class="text-muted">Responsive charting library built on top of d3.js</span>
+        </h1>
+        <p class="lead">Create and customize lightweight charts that resize with their containers. Extend the library
+        adding layers, events or transitions, taking advantage of the benefits of SVG / d3.js</p>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6">
+                <h2 class="featurette-heading">Line Chart
+                    <span class="text-muted">Multiple input variables</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6">
+              <div id="chart-1"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6 col-md-push-6">
+                <h2 class="featurette-heading">Bar Chart
+                    <span class="text-muted">Is Pretty Cool Too.</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div id="chart-2"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6">
+                <h2 class="featurette-heading">Multiple Bar Chart
+                    <span class="text-muted">Will Seal the Deal.</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6">
+                <div id="chart-3"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6 col-md-push-6">
+                <h2 class="featurette-heading">Stacked Bar Chart
+                    <span class="text-muted">Is Amazing.</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div id="chart-4"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6">
+                <h2 class="featurette-heading">Pie Chart
+                    <span class="text-muted">Melts the Ice.</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6">
+                <div id="chart-5"></div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <div class="col-md-6 col-md-push-6">
+                <h2 class="featurette-heading">Donut Chart
+                    <span class="text-muted">Needs no Presentation.</span>
+                </h2>
+                <p class="lead"></p>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <div id="chart-6"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p><a href="https://github.com/Dsus4">Dsus4 - 2014</a></p>
+        </footer>
+
+    </div>
+
+    <script src="rChart/rChart.js"></script>
+    <script src="rChart/rLineChart.js"></script>
+    <script src="rChart/rBarChart.js"></script>
+    <script src="rChart/rStackedBarChart.js"></script>
+    <script src="rChart/rPieChart.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
